@@ -19,11 +19,15 @@ Cross validation is used for tuning the parameters of each method.
 
 Results of the Implementation:
 
-Classifier \ Feature extraction , tf_idf(1vsAll), bagging(1vsAll) , Tf_idf (reduced dim) , Bagging(reduced dim)	, tf_idf ,	bagging	
-SVM RBF kernel                  ,    85.01	    ,    83.58        ,   	 61.15           ,	     55.55	        ,  65.95 ,   66.99	
-SVM linear kernel               ,    83.21	    ,    82.68	      ,      23.5	           ,       23.5           ,	 61.2	 ,   66.05	
-SVM sigmoid kernel              ,    85.01	    ,    71.6	        ,      61.2	           ,       56.3	          ,  64.7	 ,   66.75	
-NN MLP                          ,      -        ,      -          ,      49.9            ,       50.6			      ,   -    ,     -
+
+| Classifier \ Feature extraction | tf_idf(1vsAll) | bagging(1vsAll) | Tf_idf (reduced dim) | Bagging(reduced dim)	| tf_idf |	bagging	|
+|---------------------------------|----------------|-----------------|----------------------|-----------------------|--------|---------|
+| SVM RBF kernel                  |    85.01	    |    83.58        |   	 61.15           |	     55.55	        |  65.95 |   66.99	|
+| SVM linear kernel               |    83.21	    |    82.68	      |      23.5	           |       23.5           |	 61.2	 |   66.05	|
+| SVM sigmoid kernel              |    85.01	    |    71.6	        |      61.2	           |       56.3	          |  64.7	 |   66.75	|
+|NN MLP                          |      -        |      -          |      49.9            |       50.6			      |   -    |     -    |
+
+
 
 
 
